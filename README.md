@@ -1,50 +1,65 @@
-# React + TypeScript + Vite
+Pokemon Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Overview**
 
-Currently, two official plugins are available:
+Pokemon Explorer is a web application that allows users to browse a list of Pokémon, filter their favorites, and view details about individual Pokémon. The project is built using React with Redux Toolkit for state management, React-Bootstrap for styling, and follows best practices for performance and modularity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features**
 
-## Expanding the ESLint configuration
+Fetch and display a list of Pokémon.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Filter Pokémon based on favorites.
 
-- Configure the top-level `parserOptions` property like this:
+Search functionality with debounce for performance optimization.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Modular and scalable code structure.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+**Tech Stack**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Frontend: React, Redux Toolkit, TypeScript
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+UI Framework: React-Bootstrap
+
+State Management: Redux Toolkit
+
+API Handling: Axios (or Fetch API, depending on implementation)
+
+**Getting Started**
+Follow these steps to run the frontend locally.
+
+Ensure you have the following installed on your machine:
+
+Node.js (LTS version recommended)
+
+npm or yarn (package manager)
+
+Installation
+
+Clone the repository
+
+TOMTOMTOMT
+
+Install dependencies
+
+npm install  # or yarn install
+
+Running the Application
+
+Start the development server
+
+npm run dev  # or yarn dev
+
+The app should now be running on http://localhost:5173/
+
+Folder Structure
+
+/src
+│── components/            # Reusable UI components
+│── stores/                # Redux stores and actions
+│── slices/                # Redux slices
+│── services/              # API service layer
+│── assets/                # Static assets (images, icons)
+│── styles/                # Global and component-specific styles
+│── types/                 # TypeScript interfaces and types
+│── App.tsx                # Main application component
+│── index.tsx              # Entry point
