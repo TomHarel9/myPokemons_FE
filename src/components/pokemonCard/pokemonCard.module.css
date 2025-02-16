@@ -1,0 +1,121 @@
+.modalContainer {
+  min-height: 75vh;
+  padding: 10%;
+  color: #f8f7f3;
+}
+
+.pokemonName {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 1000;
+}
+
+.pokemonImages {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0;
+}
+
+.pokemonInfo {
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  opacity: 0.8;
+  padding: 5% 0;
+  border-radius: 15px;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.infoItem {
+  border-radius: 20px;
+  margin: 15% 0;
+  font-weight: 800;
+}
+
+.favorite {
+  color: red;
+}
+
+.evalutionContainer {
+  margin: 5% 0;
+}
+
+.pokemonEvolutions {
+  display: flex;
+}
+
+.normal {
+  background: #babaae;
+}
+
+.fighting {
+  background: #a75543;
+}
+
+.flying {
+  background: #78a2ff;
+}
+
+.poison {
+  background: #a95ca0;
+}
+
+.ground {
+  background: #eecc55;
+}
+
+.rock {
+  background: #ccbd72;
+}
+
+.bug {
+  background: #c2d21e;
+}
+
+.ghost {
+  background: #7975d7;
+}
+
+.steel {
+  background: #c4c2db;
+}
+
+.fire {
+  background: #fa5643;
+}
+
+.water {
+  background: #56adff;
+}
+
+.grass {
+  background: #8cd750;
+}
+
+.electric {
+  background: #fde139;
+}
+
+.psychic {
+  background: #fa65b4;
+}
+
+.ice {
+  background: #96f1ff;
+}
+
+.dragon {
+  background: #8673ff;
+}
+
+.dark {
+  background: #8d6855;
+}
+
+.fairy {
+  background: #f9aeff;
+}
