@@ -37,7 +37,7 @@ Installation
 
 Clone the repository
 
-TOMTOMTOMT
+https://github.com/TomHarel9/myPokemons_FE.git
 
 Install dependencies
 
